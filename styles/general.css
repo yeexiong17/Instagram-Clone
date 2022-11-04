@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 1000px;
+    font-family: Roboto, Arial;
+}
+
+.cursor {
+    cursor: pointer;
+}

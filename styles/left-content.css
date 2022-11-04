@@ -1,0 +1,187 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-left: 244px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Instagram Story*/
+.storybar {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 17px;
+    width: 434px;
+    max-width: 434px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+    scrollbar-gutter: auto;
+}
+
+/*Username Text*/
+.story p {
+    padding: 0;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: rgb(33, 33, 33);
+}
+
+/*Picture and Username container*/
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.storypic {
+    height: 56px;
+    padding: 1px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+/*Instagram Post*/
+.post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    width: 470px;
+    max-width: 476px;
+    margin-top: 16px;
+}
+
+/*Post Header*/
+.post-header {
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.header-container-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-container-right {
+    position: absolute;
+    right: 10px;
+}
+
+.post-profile-pic {
+    height: 32px;
+    padding: 1px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+/*Post Header Username*/
+.post-username {
+    margin: 0;
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*Menu dots*/
+.menu-dots {
+    display: flex;
+    align-items: center;
+    height: 26px;
+}
+
+.post-picture {
+    width: 100%;
+    height: 100%;
+}
+
+/*Post Footer*/
+.post-action {
+    display: flex;
+    margin-left: 5px;
+}
+
+.post-action-icon {
+    height: 23px;
+    padding: 8px;
+}
+
+.save-icon-container {
+    margin-left: 305px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 13px;
+    padding-bottom: 12px;
+}
+
+.post-info p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.post-username-title {
+    display: flex;
+    align-items: center;
+}
+
+.post-info-bold {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.post-caption {
+    color: rgb(59, 59, 59);
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.post-info-comments {
+    color: rgba(137, 137, 137, 0.877);
+    font-size: 14px;
+}
+
+.post-info-time {
+    color: rgba(166, 166, 166, 0.767);
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.post-comments {
+    border-top: 1px solid rgba(112, 112, 112, 0.127);
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post-comments input{
+    width: 380px;
+    border: none;
+    font-size: 14px;
+}
+
+.post-comments input::placeholder {
+    color: rgb(153, 153, 153);
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.post-style {
+    margin: 0 0 0 5px; 
+    color: rgba(70, 163, 250, 0.699);
+}

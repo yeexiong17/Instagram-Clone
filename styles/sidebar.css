@@ -1,0 +1,50 @@
+.sidebar {
+    width: 219px;
+    padding-left: 24px;
+    padding-top:7px;
+    border-right: 1px solid rgba(132, 131, 131, 0.367);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*Instagram Logo*/
+.instagram-logo {
+    font-family: Satisfy, Arial;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+/*Make home word bold*/
+.home-word {
+    font-weight: 500;
+}
+
+/*Flexbox for icon and word*/
+.icon-n-word {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-n-word p {
+    margin-left: 20px;
+}
+
+.nav-icon {
+    height: 23px;
+}
+
+.profile-pic {
+    border-radius: 12px;
+}
+
+.middle-nav {
+    margin-top: 37px;
+}
+
+.bottom-nav {
+    margin-top: 110px;
+}
+

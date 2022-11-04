@@ -1,0 +1,64 @@
+.right-side {
+    margin-left: 30px;
+    padding-top: 22px;
+    max-width: 329px;
+}
+
+.right-side-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.right-side-top {
+    display: flex;
+    align-items: center;
+}
+
+.switch-account {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(45, 153, 254);
+    margin-left: 140px;
+}
+
+.suggestions-for-you {
+    display: flex;
+    align-items: center;
+}
+
+.see-all {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    margin-left: 163px;
+}
+
+.follow-suggestion-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.suggestion-user-left {
+    display: flex;
+    align-items: center;
+    width: 351px;
+}
+
+.suggestion-list-name {
+    margin-left: 12px;
+}
+
+.followed-by {
+    font-size: 13px;
+    color: rgba(105, 105, 105, 0.822);
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.suggestion-user-right p{
+    margin: 0;
+    margin-left: 80px;
+}
