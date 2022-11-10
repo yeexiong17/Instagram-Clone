@@ -19,7 +19,7 @@
 .switch-account {
     font-size: 13px;
     font-weight: 500;
-    color: rgb(45, 153, 254);
+    color: rgba(39, 148, 250, 0.948);
     margin-left: 140px;
 }
 
@@ -61,4 +61,10 @@
 .suggestion-user-right p{
     margin: 0;
     margin-left: 80px;
+}
+
+.right-side-bottom p {
+    color: rgba(202, 201, 201, 0.916);
+    font-size: 12px;
+    margin-top: 25px;
 }
