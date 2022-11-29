@@ -5,6 +5,12 @@ body {
     font-family: Roboto, Arial;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    padding-left: 219px;
+}
+
 .cursor {
     cursor: pointer;
 }

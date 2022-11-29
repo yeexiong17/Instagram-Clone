@@ -1,7 +1,7 @@
 .sidebar {
     width: 219px;
     padding-left: 24px;
-    padding-top:7px;
+    padding-top: 7px;
     border-right: 1px solid rgba(132, 131, 131, 0.367);
     position: fixed;
     top: 0;
@@ -33,11 +33,15 @@
 }
 
 .nav-icon {
-    height: 23px;
+    height: 25px;
 }
 
 .profile-pic {
     border-radius: 12px;
+}
+
+.top-nav {
+    margin-top: 20px;
 }
 
 .middle-nav {
@@ -48,3 +52,67 @@
     margin-top: 110px;
 }
 
+@media (max-width:1600px) {
+    .top-nav img {
+        display: none;
+    }
+}
+
+@media (max-width:1250px) {
+    .sidebar {
+        width: 75px;
+        padding-left: 0;
+    }
+
+    main {
+        padding-left: 75px;
+    }
+
+    .icon-n-word {
+        margin-bottom: 32px;
+    }
+
+    .top-nav {
+        margin-top: 20px;
+    }
+
+    .middle-nav {
+        margin-top: 45px;
+    }
+
+    .bottom-nav {
+        margin-top: 125px;
+    }
+
+    .top-nav img {
+        display: block;
+    }
+
+    .sidebar p {
+        display: none;
+    }
+
+    .center img {
+        margin: 4px auto;
+    }
+}
+
+@media (max-width:1000px) {
+    .right-side {
+        display: none;
+    }
+}
+
+@media (max-width:765px) {
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .right-side {
+        display: none;
+    }
+}
