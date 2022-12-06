@@ -181,3 +181,9 @@ select:focus {
     margin: 0 0 0 5px;
     color: rgba(70, 163, 250, 0.699);
 }
+
+@media (max-width: 732px) {
+    .post-comments {
+        display: none;
+    }
+}
