@@ -111,7 +111,9 @@
 }
 
 .save-icon-container {
-    margin-left: 305px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .post-info {
@@ -188,9 +190,16 @@ select:focus {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 385px) {
     .left-side {
-        display: block;
+        width: 100%;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+    .storybar {
         width: 100%;
     }
 }
