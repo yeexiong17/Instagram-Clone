@@ -56,3 +56,9 @@
         padding-top: 60px;
     }
 }
+
+@media (max-width: 376px) {
+    .search-bar {
+        width: 180px;
+    }
+}

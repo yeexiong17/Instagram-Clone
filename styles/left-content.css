@@ -187,3 +187,10 @@ select:focus {
         display: none;
     }
 }
+
+@media (max-width: 376px) {
+    .left-side {
+        display: block;
+        width: 100%;
+    }
+}
